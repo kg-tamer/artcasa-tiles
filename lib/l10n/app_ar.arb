@@ -1,0 +1,73 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "ArtCasa Tiles",
+  "brandSubtitle": "للبلاط والسيراميك",
+  "homeTagline": "حاسبة البلاط",
+  "homePrompt": "اختر حاسبة للبدء",
+
+  "calculatorAreaToCartonsTitle": "متر لكراتين",
+  "calculatorAreaToCartonsSubtitle": "احسب من متر لكراتين",
+  "calculatorCartonsToAreaTitle": "كراتين لمتر",
+  "calculatorCartonsToAreaSubtitle": "احسب من كراتين لمتر",
+
+  "languageSwitcherTooltip": "تغيير اللغة",
+  "languageNameEnglish": "English",
+  "languageNameArabic": "العربية",
+  "languageNameHebrew": "עברית",
+
+  "unitSquareMeters": "م²",
+  "validationRequiredField": "هذا الحقل مطلوب",
+  "validationMustBeGreaterThanZero": "أدخل رقمًا أكبر من 0",
+  "validationMustBeZeroOrGreater": "أدخل رقمًا 0 أو أكبر",
+
+  "clearButtonLabel": "مسح",
+  "copyResultButtonLabel": "نسخ النتيجة",
+  "resultCopiedMessage": "تم نسخ النتيجة",
+
+  "calculatorInputSectionTitle": "أدخل الأرقام",
+  "calculatorResultSectionTitle": "النتيجة",
+  "calculatorOptionalSectionLabel": "اختياري",
+
+  "fieldTileLengthLabel": "طول البلاطة (سم)",
+  "fieldTileLengthHelper": "طول البلاطة الواحدة",
+  "fieldTileWidthLabel": "عرض البلاطة (سم)",
+  "fieldTileWidthHelper": "عرض البلاطة الواحدة",
+  "fieldTilesPerCartonLabel": "عدد البلاط في الكرتونة",
+  "fieldTilesPerCartonHelper": "كم عدد البلاطات في الكرتونة الواحدة",
+  "fieldCartonsPerPalletLabel": "كراتين بكل باليت/مشتاح (اختياري)",
+
+  "calc1FieldRequestedAreaLabel": "المتر المطلوب (م²)",
+  "calc1FieldRequestedAreaHelper": "المساحة التي تريد تغطيتها",
+  "calc1FieldWastePercentLabel": "نسبة الاحتياط (اختياري)",
+  "calc1FieldWastePercentHelper": "احتياط للقطع والكسر، مثلاً 10",
+  "calc1FieldCartonsPerPalletHelper": "اتركه فارغًا لتخطي حساب الباليتات/المشاتيح",
+
+  "calc2FieldExtraCartonsLabel": "كراتين إضافية",
+  "calc2FieldExtraCartonsHelper": "اختياري — اتركه فاضي إذا عندك باليت/مشتاح فقط",
+  "calc2FieldPalletsCountLabel": "عدد الباليتات/المشاتيح (اختياري)",
+  "calc2FieldPalletsCountHelper": "اتركه فارغًا إذا لم تستخدم باليتات/مشاتيح",
+  "calc2FieldCartonsPerPalletHelper": "مطلوب إذا أدخلت عدد الباليتات/المشاتيح",
+  "calc2ValidationCartonsPerPalletRequired": "أدخل عدد الكراتين في الباليت/المشتاح، أو امسح عدد الباليتات/المشاتيح",
+  "calc2ValidationCartonsOrPalletsRequired": "أدخل عدد الكراتين أو الباليتات/المشاتيح",
+
+  "resultTileArea": "مساحة البلاطة",
+  "resultCartonArea": "مساحة الكرتونة",
+  "resultRequestedArea": "المتر المطلوب",
+  "resultRequestedWithWaste": "متر مع الاحتياط",
+  "resultRequiredCartons": "الكراتين المطلوبة",
+  "resultActualDelivered": "المتر الفعلي",
+  "resultExtraArea": "الزيادة",
+  "resultFullPallets": "باليتات/مشاتيح كاملة",
+  "resultExtraCartons": "كراتين إضافية",
+  "resultTotalCartons": "إجمالي الكراتين",
+  "resultTotalTiles": "إجمالي البلاط",
+  "resultTotalArea": "إجمالي المتر",
+
+  "clipboardWastePercentLabel": "نسبة الاحتياط",
+  "resultCartonsPerPalletLabel": "كراتين بكل باليت/مشتاح",
+  "clipboardPalletsCountLabel": "عدد الباليتات/المشاتيح",
+
+  "quickSizesLabel": "أحجام شائعة",
+  "quickWastePercentLabel": "احتياط سريع"
+}

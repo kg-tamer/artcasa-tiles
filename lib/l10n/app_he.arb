@@ -1,0 +1,73 @@
+{
+  "@@locale": "he",
+
+  "appTitle": "ArtCasa Tiles",
+  "brandSubtitle": "للبلاط والسيراميك",
+  "homeTagline": "חישוב מהיר לכמות אריחים",
+  "homePrompt": "בחר מחשבון כדי להתחיל",
+
+  "calculatorAreaToCartonsTitle": "שטח לקרטונים",
+  "calculatorAreaToCartonsSubtitle": "כמה קרטונים צריך",
+  "calculatorCartonsToAreaTitle": "קרטונים לשטח",
+  "calculatorCartonsToAreaSubtitle": "כמה שטח בקרטונים",
+
+  "languageSwitcherTooltip": "החלף שפה",
+  "languageNameEnglish": "English",
+  "languageNameArabic": "العربية",
+  "languageNameHebrew": "עברית",
+
+  "unitSquareMeters": "מ\"ר",
+  "validationRequiredField": "שדה חובה",
+  "validationMustBeGreaterThanZero": "הזן מספר גדול מ-0",
+  "validationMustBeZeroOrGreater": "הזן מספר 0 או יותר",
+
+  "clearButtonLabel": "נקה",
+  "copyResultButtonLabel": "העתק תוצאה",
+  "resultCopiedMessage": "התוצאה הועתקה",
+
+  "calculatorInputSectionTitle": "הזן מספרים",
+  "calculatorResultSectionTitle": "תוצאה",
+  "calculatorOptionalSectionLabel": "אופציונלי",
+
+  "fieldTileLengthLabel": "אורך האריח (ס\"מ)",
+  "fieldTileLengthHelper": "אורך של אריח בודד",
+  "fieldTileWidthLabel": "רוחב האריח (ס\"מ)",
+  "fieldTileWidthHelper": "רוחב של אריח בודד",
+  "fieldTilesPerCartonLabel": "אריחים בקרטון",
+  "fieldTilesPerCartonHelper": "כמה אריחים יש בקרטון אחד",
+  "fieldCartonsPerPalletLabel": "קרטונים במשטח (אופציונלי)",
+
+  "calc1FieldRequestedAreaLabel": "שטח לכיסוי (מ\"ר)",
+  "calc1FieldRequestedAreaHelper": "כמה שטח רוצים לכסות",
+  "calc1FieldWastePercentLabel": "אחוז פחת (אופציונלי)",
+  "calc1FieldWastePercentHelper": "תוספת לחיתוכים ושבירה, למשל 10",
+  "calc1FieldCartonsPerPalletHelper": "השאר ריק כדי לדלג על חישוב המשטחים",
+
+  "calc2FieldExtraCartonsLabel": "קרטונים נוספים",
+  "calc2FieldExtraCartonsHelper": "אופציונלי — השאר ריק אם משתמשים רק במשטחים",
+  "calc2FieldPalletsCountLabel": "כמות משטחים (אופציונלי)",
+  "calc2FieldPalletsCountHelper": "השאר ריק אם אין משטחים",
+  "calc2FieldCartonsPerPalletHelper": "חובה אם הזנת כמות משטחים",
+  "calc2ValidationCartonsPerPalletRequired": "הזן קרטונים למשטח, או נקה את כמות המשטחים",
+  "calc2ValidationCartonsOrPalletsRequired": "הזן כמות קרטונים או משטחים",
+
+  "resultTileArea": "שטח האריח",
+  "resultCartonArea": "שטח הקרטון",
+  "resultRequestedArea": "שטח לכיסוי",
+  "resultRequestedWithWaste": "שטח עם פחת",
+  "resultRequiredCartons": "קרטונים נדרשים",
+  "resultActualDelivered": "שטח בפועל",
+  "resultExtraArea": "עודף",
+  "resultFullPallets": "משטחים",
+  "resultExtraCartons": "קרטונים נוספים",
+  "resultTotalCartons": "סה\"כ קרטונים",
+  "resultTotalTiles": "סה\"כ אריחים",
+  "resultTotalArea": "סה\"כ שטח",
+
+  "clipboardWastePercentLabel": "אחוז פחת",
+  "resultCartonsPerPalletLabel": "קרטונים במשטח",
+  "clipboardPalletsCountLabel": "כמות משטחים",
+
+  "quickSizesLabel": "מידות נפוצות",
+  "quickWastePercentLabel": "פחת מהיר"
+}

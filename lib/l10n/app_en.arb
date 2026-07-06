@@ -1,0 +1,293 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "ArtCasa Tiles",
+  "@appTitle": {
+    "description": "The visible brand name shown in the app bar, OS task switcher, and the header of the copied result text. Phase 7: this is the shop/brand name (ArtCasa Tiles), not the underlying app/codebase name (TileMate, used internally in pubspec.yaml and docs but never shown to the end user)."
+  },
+
+  "brandSubtitle": "للبلاط والسيراميك",
+  "@brandSubtitle": {
+    "description": "Phase 9: the ArtCasa Tiles brand's own Arabic business descriptor ('for tiles and ceramics'), shown next to the brand mark on the home screen. Kept identical in all three locale files, same treatment as appTitle -- it's a fixed piece of brand identity (as authored in the original logo), not translated UI chrome."
+  },
+
+  "homeTagline": "Quick tile calculations",
+  "@homeTagline": {
+    "description": "Short subtitle shown under the app title on the home screen."
+  },
+
+  "homePrompt": "Choose a calculator to start",
+  "@homePrompt": {
+    "description": "Prompt guiding the user to pick one of the two calculators."
+  },
+
+  "calculatorAreaToCartonsTitle": "m² → Cartons",
+  "@calculatorAreaToCartonsTitle": {
+    "description": "Button title for the calculator that converts square meters into cartons/pallets. Also used as that screen's app bar title."
+  },
+
+  "calculatorAreaToCartonsSubtitle": "Find cartons & pallets needed",
+  "@calculatorAreaToCartonsSubtitle": {
+    "description": "Button subtitle explaining calculator 1."
+  },
+
+  "calculatorCartonsToAreaTitle": "Cartons → m²",
+  "@calculatorCartonsToAreaTitle": {
+    "description": "Button title for the calculator that converts cartons/pallets into square meters. Also used as that screen's app bar title."
+  },
+
+  "calculatorCartonsToAreaSubtitle": "Find total area from cartons",
+  "@calculatorCartonsToAreaSubtitle": {
+    "description": "Button subtitle explaining calculator 2."
+  },
+
+  "languageSwitcherTooltip": "Change language",
+  "@languageSwitcherTooltip": {
+    "description": "Tooltip and accessibility label for the language switcher action in the app bar."
+  },
+
+  "languageNameEnglish": "English",
+  "@languageNameEnglish": {
+    "description": "Native name of the English language, shown identically regardless of current app locale."
+  },
+
+  "languageNameArabic": "العربية",
+  "@languageNameArabic": {
+    "description": "Native name of the Arabic language, shown identically regardless of current app locale."
+  },
+
+  "languageNameHebrew": "עברית",
+  "@languageNameHebrew": {
+    "description": "Native name of the Hebrew language, shown identically regardless of current app locale."
+  },
+
+  "unitSquareMeters": "m²",
+  "@unitSquareMeters": {
+    "description": "Abbreviation for square meters, appended to formatted area values."
+  },
+
+  "validationRequiredField": "This field is required",
+  "@validationRequiredField": {
+    "description": "Shown under a required numeric field left empty."
+  },
+
+  "validationMustBeGreaterThanZero": "Enter a number greater than 0",
+  "@validationMustBeGreaterThanZero": {
+    "description": "Shown under a numeric field containing zero, a negative number, or non-numeric text."
+  },
+
+  "validationMustBeZeroOrGreater": "Enter a number 0 or greater",
+  "@validationMustBeZeroOrGreater": {
+    "description": "Shown under a field whose value is negative or non-numeric, where 0 itself is valid: calculator 1's waste percentage, and (since Phase 4) calculator 2's extra-cartons and pallets-count fields, each of which is independently optional and treats an explicit 0 the same as empty."
+  },
+
+  "clearButtonLabel": "Clear",
+  "@clearButtonLabel": {
+    "description": "Button that resets a calculator form back to empty."
+  },
+
+  "copyResultButtonLabel": "Copy result",
+  "@copyResultButtonLabel": {
+    "description": "Button that copies the calculation result to the clipboard as text."
+  },
+
+  "resultCopiedMessage": "Result copied to clipboard",
+  "@resultCopiedMessage": {
+    "description": "Snackbar confirmation shown after the copy-result button is tapped."
+  },
+
+  "calculatorInputSectionTitle": "Enter your numbers",
+  "@calculatorInputSectionTitle": {
+    "description": "Title of the input card, shared by both calculator screens."
+  },
+
+  "calculatorResultSectionTitle": "Result",
+  "@calculatorResultSectionTitle": {
+    "description": "Title of the result card, shared by both calculator screens."
+  },
+
+  "calculatorOptionalSectionLabel": "Optional",
+  "@calculatorOptionalSectionLabel": {
+    "description": "Divider label separating required fields from optional fields, shared by both calculator screens."
+  },
+
+  "fieldTileLengthLabel": "Tile length (cm)",
+  "@fieldTileLengthLabel": {
+    "description": "Label for the tile length input field, shared by both calculator screens."
+  },
+
+  "fieldTileLengthHelper": "Length of a single tile",
+  "@fieldTileLengthHelper": {
+    "description": "Helper text for the tile length input field."
+  },
+
+  "fieldTileWidthLabel": "Tile width (cm)",
+  "@fieldTileWidthLabel": {
+    "description": "Label for the tile width input field, shared by both calculator screens."
+  },
+
+  "fieldTileWidthHelper": "Width of a single tile",
+  "@fieldTileWidthHelper": {
+    "description": "Helper text for the tile width input field."
+  },
+
+  "fieldTilesPerCartonLabel": "Tiles per carton",
+  "@fieldTilesPerCartonLabel": {
+    "description": "Label for the tiles-per-carton input field, shared by both calculator screens."
+  },
+
+  "fieldTilesPerCartonHelper": "How many tiles come in one carton",
+  "@fieldTilesPerCartonHelper": {
+    "description": "Helper text for the tiles-per-carton input field."
+  },
+
+  "fieldCartonsPerPalletLabel": "Cartons per pallet (optional)",
+  "@fieldCartonsPerPalletLabel": {
+    "description": "Label for the optional cartons-per-pallet input field, shared by both calculator screens. Each screen supplies its own helper text, since the validation relationship differs."
+  },
+
+  "calc1FieldRequestedAreaLabel": "Area needed (m²)",
+  "@calc1FieldRequestedAreaLabel": {
+    "description": "Label for calculator 1's requested-square-meters input field."
+  },
+
+  "calc1FieldRequestedAreaHelper": "Area you need to cover",
+  "@calc1FieldRequestedAreaHelper": {
+    "description": "Helper text for calculator 1's requested-square-meters input field."
+  },
+
+  "calc1FieldWastePercentLabel": "Waste % (optional)",
+  "@calc1FieldWastePercentLabel": {
+    "description": "Label for calculator 1's optional waste-percentage input field."
+  },
+
+  "calc1FieldWastePercentHelper": "Extra for cuts and breakage, e.g. 10",
+  "@calc1FieldWastePercentHelper": {
+    "description": "Helper text for calculator 1's optional waste-percentage input field."
+  },
+
+  "calc1FieldCartonsPerPalletHelper": "Leave empty to skip the pallet breakdown",
+  "@calc1FieldCartonsPerPalletHelper": {
+    "description": "Calculator 1's helper text for the shared cartons-per-pallet field: purely optional, no dependency on other fields."
+  },
+
+  "calc2FieldExtraCartonsLabel": "Extra cartons",
+  "@calc2FieldExtraCartonsLabel": {
+    "description": "Label for calculator 2's optional loose/manual-cartons input field. Renamed from 'Cartons count' in Phase 4, when this field changed from required to optional (a shop worker can now calculate from pallets alone)."
+  },
+
+  "calc2FieldExtraCartonsHelper": "Optional — leave empty if using pallets only",
+  "@calc2FieldExtraCartonsHelper": {
+    "description": "Helper text for calculator 2's optional extra-cartons input field."
+  },
+
+  "calc2FieldPalletsCountLabel": "Pallets count (optional)",
+  "@calc2FieldPalletsCountLabel": {
+    "description": "Label for calculator 2's optional pallets-count input field."
+  },
+
+  "calc2FieldPalletsCountHelper": "Leave empty if you're not using pallets",
+  "@calc2FieldPalletsCountHelper": {
+    "description": "Helper text for calculator 2's optional pallets-count input field."
+  },
+
+  "calc2FieldCartonsPerPalletHelper": "Required if you entered a pallets count",
+  "@calc2FieldCartonsPerPalletHelper": {
+    "description": "Calculator 2's helper text for the shared cartons-per-pallet field: explains the dependency on pallets count."
+  },
+
+  "calc2ValidationCartonsPerPalletRequired": "Enter cartons per pallet, or clear the pallets count",
+  "@calc2ValidationCartonsPerPalletRequired": {
+    "description": "Shown under calculator 2's cartons-per-pallet field when pallets count is filled in but cartons-per-pallet is not."
+  },
+
+  "calc2ValidationCartonsOrPalletsRequired": "Enter cartons or pallets count",
+  "@calc2ValidationCartonsOrPalletsRequired": {
+    "description": "Shown (Phase 4) under calculator 2's extra-cartons and/or pallets-count fields when both are empty or zero -- at least one must be positive for there to be anything to total up."
+  },
+
+  "resultTileArea": "Tile area",
+  "@resultTileArea": {
+    "description": "Result row label: area of a single tile. Shared by both calculators."
+  },
+
+  "resultCartonArea": "Carton area",
+  "@resultCartonArea": {
+    "description": "Result row label: area covered by one carton. Shared by both calculators."
+  },
+
+  "resultRequestedArea": "Area needed",
+  "@resultRequestedArea": {
+    "description": "Calculator 1 result row label: the area the user originally asked for."
+  },
+
+  "resultRequestedWithWaste": "Area with waste",
+  "@resultRequestedWithWaste": {
+    "description": "Calculator 1 result row label: requested area after applying the waste percentage."
+  },
+
+  "resultRequiredCartons": "Required cartons",
+  "@resultRequiredCartons": {
+    "description": "Calculator 1 result row label (and hero number) for the number of cartons to order."
+  },
+
+  "resultActualDelivered": "Actual area",
+  "@resultActualDelivered": {
+    "description": "Calculator 1 result row label: area actually covered by the required cartons."
+  },
+
+  "resultExtraArea": "Extra area",
+  "@resultExtraArea": {
+    "description": "Calculator 1 result row label: how much the delivered area exceeds the requested area."
+  },
+
+  "resultFullPallets": "Full pallets",
+  "@resultFullPallets": {
+    "description": "Result row label: number of complete pallets. Shared by both calculators (computed in calculator 1, entered directly in calculator 2)."
+  },
+
+  "resultExtraCartons": "Extra cartons",
+  "@resultExtraCartons": {
+    "description": "Result row label: loose cartons not part of a full pallet. Shared by both calculators (computed in calculator 1, entered directly in calculator 2)."
+  },
+
+  "resultTotalCartons": "Total cartons",
+  "@resultTotalCartons": {
+    "description": "Calculator 2 result row label: total number of cartons (loose plus palletized)."
+  },
+
+  "resultTotalTiles": "Total tiles",
+  "@resultTotalTiles": {
+    "description": "Calculator 2 result row label: total number of individual tiles."
+  },
+
+  "resultTotalArea": "Total area",
+  "@resultTotalArea": {
+    "description": "Calculator 2 result row label (and hero number): total area covered."
+  },
+
+  "clipboardWastePercentLabel": "Waste %",
+  "@clipboardWastePercentLabel": {
+    "description": "Label for the waste-percentage line in the copied result text. Distinct from calc1FieldWastePercentLabel, which has an '(optional)' suffix that only makes sense on the input form, not when reporting a value that was actually entered."
+  },
+
+  "resultCartonsPerPalletLabel": "Cartons per pallet",
+  "@resultCartonsPerPalletLabel": {
+    "description": "Label for the cartons-per-pallet line, used both as a calculator 2 on-screen result row (since Phase 4) and in the copied result text. Distinct from fieldCartonsPerPalletLabel (the form field, which has an '(optional)' suffix only appropriate on the input form) for the same reason as clipboardWastePercentLabel. Renamed from clipboardCartonsPerPalletLabel in Phase 4 once it stopped being clipboard-only."
+  },
+
+  "clipboardPalletsCountLabel": "Pallets count",
+  "@clipboardPalletsCountLabel": {
+    "description": "Label for the pallets-count line in calculator 2's copied result text. Distinct from calc2FieldPalletsCountLabel for the same '(optional)' reason as clipboardWastePercentLabel."
+  },
+
+  "quickSizesLabel": "Common sizes",
+  "@quickSizesLabel": {
+    "description": "Phase 6: label above the quick-choice tile-size chips (e.g. 60x60) shown under the tile length/width fields on both calculator screens. Tapping a chip only fills the existing fields -- it is not a saved tile catalog."
+  },
+
+  "quickWastePercentLabel": "Quick allowance",
+  "@quickWastePercentLabel": {
+    "description": "Phase 6: label above the quick-choice waste-percentage chips (0%/5%/10%) shown under calculator 1's waste field. Tapping a chip only fills the existing field."
+  }
+}
